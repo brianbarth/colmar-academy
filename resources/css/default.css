@@ -198,6 +198,35 @@ ul {
 
 #startLearning {
 	clear: both;
+	background-color: rgb(194, 201, 204);
+}
+#flexDiv {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 68rem;
+	margin: auto;
+}
+#startLearning h2 {
+	font-size: 2rem;
+	padding: 2rem 0 2rem 0;
+	text-align: center;
+}
+#software, #computerArt, #design, #data, #business, #marketing {
+	width: 25%;
+	height: 20rem;
+	margin: 0 1rem 2rem 1rem;
+	background-color: rgb(242, 251, 255);
+}
+#software img, #computerArt img, #design img, #data img, #business img, #marketing img{
+	width: 100%;
+}
+#startLearning h3 {
+	font-size: 1.5rem;
+	padding: 1rem 0 1rem 1.5rem;
+}
+#startLearning p {
+	line-height: 1.5rem;
 }
 
 
