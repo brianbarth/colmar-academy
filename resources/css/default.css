@@ -1,0 +1,118 @@
+/* stylesheet for Colmar */
+
+/* 	light color  								rgb(242, 251, 255);
+		background/mid color 				rgb(178, 255, 241);
+		dark color           				rgb(194, 201, 204);
+		border for anchors					rgb(207, 223, 255);
+		main font color/background  rgb(72, 74, 84);
+		Read More - light blue			rgb(72, 161, 255);
+		
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	/*border: 1px blue solid;*/
+}
+html {
+	font-size: 16px;
+}
+body {
+	background-color: rgb(235, 233, 239);
+	color: rgb(72, 74, 84);
+}
+.bigBox {
+	width: 65.25rem;
+	margin: 5rem auto;
+}
+/* header section */
+
+header {
+	background-color: rgb(242, 251, 255);
+	display: flex;
+	justify-content: space-between;
+	height: 4rem;
+}
+#logo img {
+	display: inline;
+	height: 3.5rem;
+	padding-left: 1.5rem;
+	padding-top: .25rem;
+	float: left;
+}
+#logo h1 {
+	font-size: 1.5rem;
+}
+#front {
+	color: rgb(72, 74, 84);
+}
+#back {
+	color: rgb(194, 201, 204);
+}
+#front, #back {
+	display: inline-block;
+	padding-top: 1rem;
+}
+
+/* nav */
+
+a {
+	text-decoration: none;
+	color: rgb(72, 74, 84);
+	font-size: 1rem;
+	padding: .0675rem;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 1.5rem 0 1.5rem 0;
+}
+.border {
+	border-right: solid 1rem rgb(51, 153, 172);
+}
+ul {
+	padding-right: 2rem;
+}
+
+/* start here */
+
+#startHere {
+	background-color: rgb(194, 201, 204);
+	height: 33rem;
+}
+#startHere img {
+	width: 60%;
+	padding: 2rem 2.5rem 2rem 1.5rem;
+	float: left;
+}
+#startHere h2 {
+	padding-top: 8rem;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+#startHere p {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+#here {
+	font-size: 1.5rem;
+	color: rgb(242, 251, 255);
+	background-color: rgb(72, 74, 84);
+	height: 2.5rem;
+	width: 18rem;
+	line-height: 2.5rem;
+	display: inline-block;
+	text-align: center;
+}
+
+/* keep practicing */
+
+#keepPracticing img {
+	width: 60%;
+	padding: 2rem 2.5rem 2rem 1.5rem;
+}
+#picBox1 img {
+	float: left;
+	padding: 2rem 2.5rem 2rem 1.5rem;
+}
