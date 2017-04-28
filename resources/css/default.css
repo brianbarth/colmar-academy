@@ -22,8 +22,11 @@ body {
 	background-color: rgb(235, 233, 239);
 	color: rgb(72, 74, 84);
 }
+.readMore {
+	color: rgb(72, 161, 255);
+}
 .bigBox {
-	width: 65.25rem;
+	width: 74rem;
 	margin: 5rem auto;
 }
 /* header section */
@@ -66,7 +69,7 @@ a {
 li {
 	list-style: none;
 	display: inline-block;
-	padding: 1.5rem 0 1.5rem 0;
+	padding: 1.475rem 0 1.475rem 0;
 }
 .border {
 	border-right: solid 1rem rgb(51, 153, 172);
@@ -83,16 +86,17 @@ ul {
 }
 #startHere img {
 	width: 60%;
+	height: 29rem;
 	padding: 2rem 2.5rem 2rem 1.5rem;
 	float: left;
 }
 #startHere h2 {
-	padding-top: 8rem;
-	font-size: 2.5rem;
+	padding-top: 9rem;
+	font-size: 2rem;
 	margin-bottom: 1rem;
 }
 #startHere p {
-	font-size: 1.5rem;
+	font-size: 1rem;
 	margin-bottom: 1rem;
 }
 #here {
@@ -100,7 +104,7 @@ ul {
 	color: rgb(242, 251, 255);
 	background-color: rgb(72, 74, 84);
 	height: 2.5rem;
-	width: 18rem;
+	width: 16rem;
 	line-height: 2.5rem;
 	display: inline-block;
 	text-align: center;
@@ -108,11 +112,93 @@ ul {
 
 /* keep practicing */
 
-#keepPracticing img {
-	width: 60%;
-	padding: 2rem 2.5rem 2rem 1.5rem;
+#keepPracticing {
+	position: relative;
+	width: 100%;
+	height: auto;
 }
-#picBox1 img {
+.picBox1 {
+	display: inline-block;
+	border-right: solid 2px rgb(194, 201, 204);
+	width: 65%;
+}
+.picBox1 img {
+	width: 92%;
+	padding: 2rem 1.5rem 2rem 1.5rem;
+}
+.picBox1 h2, p, #jobTitle {
+	padding-left: 1.5rem;
+}
+.picBox1 h2 {
+	font-size: 2rem;
+	padding-bottom: 1.5rem;
+}
+.picBox1 p {
+	font-size: 1rem;
+	padding-bottom: 2rem;
+	padding-right: 6rem;
+}
+.practiceRight {	
+	max-width: 35%;
+	position: absolute;
+	top: 1rem;
+	left: 65%;
+}
+#orientaion {
 	float: left;
-	padding: 2rem 2.5rem 2rem 1.5rem;
 }
+#orientation img {
+	float: left;
+	width: 9.25rem;	
+	padding: 1rem;
+}
+#orientation h3 {
+	padding-top: 2rem;
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+#orientation p {
+	line-height: 1.5rem;
+}
+#campus {
+	width: 100%;
+	float: left;
+	clear: both;
+}
+#campus img {
+	float: left;
+	width: 9.25rem;
+	padding: 1rem;
+}
+#campus h3 {
+	padding-top: 2rem;
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+#campus p {
+	line-height: 1.5rem;
+}
+#guest {
+	float: left;
+	background-color: rgb(194, 201, 204);
+}
+#guest img {
+	float: left;
+	width: 9.25rem;
+	padding: 1rem;
+}
+#guest h3 {
+	padding-top: 2rem;
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+#guest p {
+	line-height: 1.5rem;
+}
+
+#startLearning {
+	clear: both;
+}
+
+
+
