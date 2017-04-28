@@ -29,6 +29,9 @@ body {
 	width: 74rem;
 	margin: 5rem auto;
 }
+#outBorder {
+	border: 2px solid rgb(194, 201, 204);
+}
 /* header section */
 
 header {
@@ -196,6 +199,9 @@ ul {
 	line-height: 1.5rem;
 }
 
+/* start learning */
+
+
 #startLearning {
 	clear: both;
 	background-color: rgb(194, 201, 204);
@@ -229,5 +235,71 @@ ul {
 	line-height: 1.5rem;
 }
 
+/* thesis exhibit */
+
+#thesis {
+	background-color: rgb(242, 251, 255);
+	position: relative;
+}
+#urban {
+	float: left;
+}
+#urban h2 {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem 0 2rem 0;
+}
+#urban video {
+	width: 60%;
+	padding: 0 1rem 1.5rem 1.5rem;
+}
+#urban h3 {
+	font-size: 1.5rem;
+	padding: 1.5rem 0 1.5rem 1.5rem;
+}
+#urban p {
+	padding: 0 0 2rem 1.5rem;
+	width: 60%;
+}
+#thesisRight {
+	position: absolute;
+	top: 6.5rem;
+	max-width: 35%;
+	left: 65%;
+}
+#fisma img, #nowThen img {
+	width: 9.25rem;
+	float: left;
+	padding: 1rem;
+}
+#fisma {
+	float: left;
+	width: 100%;
+	background-color: rgb(194, 201, 204);
+}
+#fisma h3 {
+	font-size: 1.5rem;
+	padding: 2.5rem 0 2.25rem 0;
+}
+#nowThen {
+	float: left;
+	width: 100%;
+}
+#nowThen h3 {
+	font-size: 1.5rem;
+	padding-top: 4rem;
+}
+footer {
+	clear: both;
+	border-top: solid 2px rgb(194, 201, 204);
+	display: flex;
+	justify-content: space-between;
+}
+footer p {
+	padding: 1.5rem 0 0 1.5rem;
+}
+footer ul {
+	padding: 0 1.5rem 0 0;
+}
 
 
