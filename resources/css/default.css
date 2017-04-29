@@ -26,7 +26,7 @@ body {
 	color: rgb(72, 161, 255);
 }
 .bigBox {
-	width: 74rem;
+	max-width: 74rem;
 	margin: 5rem auto;
 }
 #outBorder {
@@ -85,33 +85,34 @@ ul {
 
 #startHere {
 	background-color: rgb(194, 201, 204);
-	height: 33rem;
+	height: 37rem;
 }
 #startHere img {
-	width: 60%;
-	height: 29rem;
-	padding: 2rem 2.5rem 2rem 1.5rem;
 	float: left;
+	max-width: 60%;
+	padding: 2rem 2.5rem 2rem 1.5rem;
 }
 #startHere h2 {
 	padding-top: 9rem;
-	font-size: 2rem;
-	margin-bottom: 1rem;
+	font-size: 3rem;
+	margin-bottom: 2rem;
 }
 #startHere p {
-	font-size: 1rem;
-	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	padding-right: 2rem;
 }
 #here {
 	font-size: 1.5rem;
 	color: rgb(242, 251, 255);
 	background-color: rgb(72, 74, 84);
 	height: 2.5rem;
-	width: 16rem;
+	min-width: 14rem;
 	line-height: 2.5rem;
 	display: inline-block;
 	text-align: center;
 }
+
 
 /* keep practicing */
 
@@ -123,10 +124,10 @@ ul {
 .picBox1 {
 	display: inline-block;
 	border-right: solid 2px rgb(194, 201, 204);
-	width: 65%;
+	max-width: 65%;
 }
 .picBox1 img {
-	width: 92%;
+	max-width: 92%;
 	padding: 2rem 1.5rem 2rem 1.5rem;
 }
 .picBox1 h2, p, #jobTitle {
@@ -152,7 +153,7 @@ ul {
 }
 #orientation img {
 	float: left;
-	width: 9.25rem;	
+	max-width: 35%;	
 	padding: 1rem;
 }
 #orientation h3 {
@@ -170,7 +171,7 @@ ul {
 }
 #campus img {
 	float: left;
-	width: 9.25rem;
+	max-width: 35%;
 	padding: 1rem;
 }
 #campus h3 {
@@ -187,7 +188,7 @@ ul {
 }
 #guest img {
 	float: left;
-	width: 9.25rem;
+	max-width: 35%;
 	padding: 1rem;
 }
 #guest h3 {
@@ -210,7 +211,7 @@ ul {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	max-width: 68rem;
+	max-width: 93%;
 	margin: auto;
 }
 #startLearning h2 {
@@ -219,13 +220,16 @@ ul {
 	text-align: center;
 }
 #software, #computerArt, #design, #data, #business, #marketing {
-	width: 25%;
+	max-width: 25%;
 	height: 20rem;
 	margin: 0 1rem 2rem 1rem;
 	background-color: rgb(242, 251, 255);
 }
+#computerArt {
+	overflow: auto;
+}
 #software img, #computerArt img, #design img, #data img, #business img, #marketing img{
-	width: 100%;
+	max-width: 100%;
 }
 #startLearning h3 {
 	font-size: 1.5rem;
@@ -240,6 +244,7 @@ ul {
 #thesis {
 	background-color: rgb(242, 251, 255);
 	position: relative;
+	height: auto;
 }
 #urban {
 	float: left;
@@ -250,8 +255,8 @@ ul {
 	padding: 2rem 0 2rem 0;
 }
 #urban video {
-	width: 60%;
 	padding: 0 1rem 1.5rem 1.5rem;
+	max-width: 60%;
 }
 #urban h3 {
 	font-size: 1.5rem;
@@ -259,36 +264,41 @@ ul {
 }
 #urban p {
 	padding: 0 0 2rem 1.5rem;
-	width: 60%;
+	max-width: 55%;
 }
 #thesisRight {
 	position: absolute;
-	top: 6.5rem;
-	max-width: 35%;
+	display: inline;
+	top: 6.43rem;
+	min-width: 35%;
 	left: 65%;
 }
 #fisma img, #nowThen img {
-	width: 9.25rem;
+	width: 35%;
 	float: left;
 	padding: 1rem;
 }
 #fisma {
-	float: left;
-	width: 100%;
 	background-color: rgb(194, 201, 204);
+	border: solid red 1px;
 }
 #fisma h3 {
 	font-size: 1.5rem;
-	padding: 2.5rem 0 2.25rem 0;
+	padding: 2.5rem 0 1rem 0;
+}
+#fisma p {
+	padding: 0 3rem 3.25rem 0;
 }
 #nowThen {
-	float: left;
-	width: 100%;
+	max-width: 100%;
 }
 #nowThen h3 {
 	font-size: 1.5rem;
 	padding-top: 4rem;
 }
+
+/* footer */
+
 footer {
 	clear: both;
 	border-top: solid 2px rgb(194, 201, 204);
