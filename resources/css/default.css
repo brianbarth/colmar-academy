@@ -24,6 +24,7 @@ body {
 }
 .readMore {
 	color: rgb(72, 161, 255);
+	padding-top: 0.5rem;
 }
 .bigBox {
 	max-width: 74rem;
@@ -46,6 +47,9 @@ header {
 	padding-left: 1.5rem;
 	padding-top: .25rem;
 	float: left;
+}
+#logo .rightIcons {
+	display: none;
 }
 #logo h1 {
 	font-size: 1.5rem;
@@ -311,5 +315,214 @@ footer p {
 footer ul {
 	padding: 0 1.5rem 0 0;
 }
+/* media query @ 670px */
 
+@media only screen and (max-width: 670px) {
+
+
+		#logo h1, #front, #back  {
+			display: none;
+		}
+		header ul {
+			display: none;
+		}
+		#startHere img {
+			display: none;
+		}
+		#queryBox {
+			background-color: #777;
+			height: 180px;
+		}
+		header {
+			display: block;
+		}
+		#logo {
+			max-width: 95%;
+			margin: auto;
+			display: flex;
+			justify-content: space-around;
+		}
+		#logo img {
+			display: inline-block;
+			padding-top: .5rem;
+			float: none;
+			height: 3.5rem;
+			margin-right: 3rem;
+			
+		}
+		#logo .rightIcons {
+			display: inline-block;
+			height: 3.5rem;
+			padding-top: .5rem;
+		}
+		#startHere h2 {
+			padding: 2rem 0 2rem 1rem;
+			font-size: 3rem;	
+		}
+		#startHere p {
+			font-size: 2rem;
+			padding: 0 0 1.5rem 1rem;
+		}
+			#here {
+			font-size: 1.5rem;
+			color: rgb(242, 251, 255);
+			background-color: #777;
+			height: 2rem;
+			max-width: 90%;
+			margin: auto;
+			display: block;
+			text-align: center;
+			padding: 0 1rem 2rem 1rem;
+		}
+
+		/* keep practing */
+
+		.picBox1 {
+			display: none;
+		}
+		.practiceRight {
+			position: static;
+			max-width: 100%;
+			border-bottom: solid 2px #ccc;
+			padding-bottom: 2rem;
+		}
+		#orientation {
+			max-width: 272px;
+			float: none;
+			margin: auto;
+			padding-top: 1rem;
+		}
+		#orientation img {
+			display: inline-block;
+			max-width:100%;
+			float: none;
+			margin: auto;
+			margin-left: -1rem;
+		}
+		#orientation h3 {
+			text-align: center;
+		}
+		.readMore {
+			text-align: center;
+			margin-left: -1rem;
+		}
+		#campus {
+			max-width: 272px;
+			float: none;
+			margin: auto;
+		}
+		#campus img {
+			display: inline-block;
+			max-width:100%;
+			float: none;
+			margin: auto;
+			margin-left: -1rem;
+		}
+		#campus h3 {
+			text-align: center;
+		}
+		#guest {
+			max-width: 272px;
+			float: none;
+			margin: auto;
+			background-color: inherit;
+		}
+		#guest img {
+			display: inline-block;
+			max-width:100%;
+			float: none;
+			margin: auto;
+			margin-left: -1rem;
+		}
+		#guest h3 {
+			text-align: center;
+		}
+		
+
+		/* start learning */
+
+
+		#startLearning {
+			background-color: inherit;
+			max-width: 100%;
+		}
+		#flexDiv {
+			display: flex;
+			flex-direction: column;
+			max-width: 100%;
+		}
+		#startLearning h2 {
+			font-size: 2rem;
+			padding: 2rem 0 2rem 0;
+			text-align: center;
+			max-width: 100%;
+		}
+		#software, #computerArt, #design, #data, #business, #marketing {
+			display: inline-block;
+			max-width: 100%;
+			height: auto;
+			margin: none;
+			background-color: #ccc;
+		}
+		#computerArt {
+			overflow: auto;
+		}
+		#software img, #computerArt img, #design img, #data img, #business img, #marketing img{
+			display: none;
+		}
+		#startLearning h3 {
+			font-size: 1.5rem;
+			padding: 1rem 0 1rem 1.5rem;
+		}
+		#startLearning p {
+			display: none;
+		}
+		/* thesis exhibit */
+
+		#thesis {
+			background-color: rgb(242, 251, 255);
+			position: relative;
+			height: auto;
+		}
+		#urban {
+			float: none;
+		}
+		#urban h2 {
+			font-size: 2rem;
+			text-align: center;
+			padding: 2rem 0 2rem 0;
+		}
+		#urban video {
+			margin-left: -1rem;
+			max-width: 96%;
+		}
+		#urban h3 {
+			display: none;
+		}
+		#urban p {
+			display: none;
+		}
+		#thesisRight {
+			display: none;
+		}
+		/* footer */
+
+		footer {
+			max-width: 100%;
+			height: 5rem;
+			clear: none;
+			border-top: solid 2px rgb(194, 201, 204);
+			display: block;
+			justify-content: none;
+			text-align: center;
+		}
+		footer p {
+			display: inline-block;
+			padding-top: 2.5rem;
+		}
+		footer ul {
+			display: none;
+		}
+		
+}
 
